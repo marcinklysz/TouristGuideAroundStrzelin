@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+        <fragment 
+          android:id="@+id/map"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:name="com.google.android.gms.maps.SupportMapFragment"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#000000">
+    <Button        
+        android:id="@+id/btnwlacz"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"        
+        android:onClick="onClick_Wlacz"
+        android:text="Włącz" 
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp" 
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="2dp"
+        android:background="#757575"/>
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Info"
+        android:textColor="#ffffff"
+        android:onClick="onClick_Info"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#757575" />
+    <Button
+        android:id="@+id/btnwylacz"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:onClick="onClick_Wylacz"
+        android:text="Wyłącz" 
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="4dp"
+        android:background="#757575"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

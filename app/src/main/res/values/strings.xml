@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Strzelin</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="historia_miasta">Historia miasta</string>
+    <string name="szlak_historyczny">Szlak Historyczny Strzelina</string>
+    <string name="zabytki">Zabytki</string>
+    <string name="zdjecia">Zdjęcia</string>
+    <string name="btnmenu">Menu</string>
+    <string name="btnzabytki">Zabytki</string>
+    
+    <string name="rotunda">Rotunda</string>
+    <string name="dkb">Dom Książąt Brzeskich</string>
+    <string name="knmp">Kościół Najświętszej Marii Panny</string>
+    <string name="ksk">Kościół Świętego Krzyża</string>
+
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="1.0"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/mury"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mury Obronne"
+            android:textColor="#ffffff"
+            android:onClick="onClick_domury"
+            android:layout_weight="1.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:background="#757575"/>
+        
+        <Button
+            android:id="@+id/rotunda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rotunda Św Gotarda"
+            android:textColor="#ffffff"
+            android:onClick="onClick_dorotunda" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:background="#757575"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="1.0"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/baszta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Baszta Prochowa"
+            android:textColor="#ffffff"
+            android:onClick="onClick_dobaszta" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:background="#757575"/>
+
+        <Button
+            android:id="@+id/kaplica"
+           android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kaplica Św Jerzego"
+            android:textColor="#ffffff"
+            android:onClick="onClick_dokaplica" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:background="#757575"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="1.0"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/kosciolnmp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kościół Najświętszej Marii Panny"
+            android:textColor="#ffffff"
+            android:onClick="onClick_dokosciolnmp" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:background="#757575"/>
+        
+        <Button
+            android:id="@+id/klasztorboromeuszek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Klasztor Boromeuszek"
+            android:textColor="#ffffff"
+            android:onClick="onClick_doklasztorboromeuszek" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:background="#757575"/>
+                
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="1.0"
+        android:background="#000000">
+        
+        <Button
+            android:id="@+id/kosciolsk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kościół Świętego Krzyża"
+            android:textColor="#ffffff"
+            android:onClick="onClick_dokosciolsk" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:background="#757575"/>
+
+       <Button
+            android:id="@+id/domkb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dom Książąt Brzeskich" 
+            android:textColor="#ffffff"
+            android:onClick="onClick_dodomkb"
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:background="#757575"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="1.0"
+        android:background="#000000">
+        
+        <Button
+            android:id="@+id/ratusz"
+            android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+            android:text="Ratusz"
+            android:textColor="#ffffff"
+            android:onClick="onClick_doratusz" 
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#757575"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

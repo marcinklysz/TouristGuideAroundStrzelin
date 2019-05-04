@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" 
+        android:background="@drawable/tlo7"
+        android:layout_weight="2.6">        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="1"
+        android:background="#000000">
+        
+    	<Button    	    
+        	android:id="@+id/btnhistoriamiasta"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"        
+        	android:text="@string/historia_miasta"
+        	android:textColor="#ffffff"
+        	android:layout_weight="1" 
+        	android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+        	android:background="#757575"/>
+
+    	<Button
+        	android:id="@+id/btnszlakhistoryczny"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"        
+        	android:text="@string/szlak_historyczny"
+        	android:textColor="#ffffff"
+        	android:layout_weight="1" 
+        	android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" 
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+        	android:background="#757575"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:orientation="horizontal" 
+         android:layout_weight="1"
+         android:background="#000000">
+    	
+        <Button
+        	android:id="@+id/btnzabytki"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"
+        	android:text="@string/zabytki" 
+        	android:textColor="#ffffff"
+        	android:layout_weight="1" 
+        	android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+        	android:background="#757575"/>
+
+    	<Button
+        	android:id="@+id/btnzdjecia"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"
+        	android:text="@string/zdjecia"
+        	android:textColor="#ffffff"
+        	android:layout_weight="1"  
+        	android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp" 
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+        	android:background="#757575"/>
+    </LinearLayout>
+
+</LinearLayout>
