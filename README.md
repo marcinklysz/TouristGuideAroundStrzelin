@@ -2,7 +2,7 @@
 <h1 align="center"> Strzelin - Android app </h1>
 
 <p align="center">
-  This is an application that is a replacement for the traditional tourist guide around Strzelin historical track.
+  This application is a replacement for the traditional tourist guide around Strzelin historical track.
 </p>
  
 ## Table of contents
@@ -49,7 +49,7 @@ Install Strzelin.apk file on Your device with Android 4.4 or newer
 
 ## Status
 What You can see now is a first version of Strzelin app from 2014. Created in Eclipse, uploaded without any changes except commented out google-play-services_lib reference from project.properties just to make importing project to Android Studio possible. <br>
-Now I am working on updating this app to a newest programing standards. At this point there are some difficulties to compile mostly because of obsoleted methods and libraries which were used in 2014. Howewer .apk file created using old version of "Eclipse" is now working correctly on devices with actual version of android.
+Now I am working on updating this app to a newest programing standards. At this point there are some difficulties to compile, mostly because of obsoleted methods and libraries which were used in 2014. Howewer .apk file created using old version of "Eclipse" is now working correctly on devices with actual version of android.
 
 ## Inspiration
 I created this app back in 2014 to let people who are visiting Strzelin to experience Strzelin historical track in more modern way (using their smartphones or tablets). At that time there was only one official paper version of Tourist guide through Strzelin historical track.
