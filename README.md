@@ -15,7 +15,7 @@
 * [Contact](#contact)
 
 ## General info
-App is designed for mobile devices based on Android operation system.
+App is designed for mobile devices based on Android operating system.
 It allows for constant monitoring user position to follow along the designated route (Strzelin historical track) so it reduces the risk of getting lost. User can also read about Strzelin's history, view some pictures and description of Strzelin's importnant historical places. <br>
 App is based on paper info-card about Strzelin historical track and extended with informations about Strzelin history from  Stanisław Strauss's book "Strzelin i Wzgórza Strzelińskie"
 
@@ -52,7 +52,7 @@ What You can see now is a first version of Strzelin app from 2014. Created in Ec
 Now I am working on updating this app to a newest programing standards. At this point there are some difficulties to compile, mostly because of obsoleted methods and libraries which were used in 2014. Howewer .apk file created using old version of "Eclipse" is now working correctly on devices with actual version of android.
 
 ## Inspiration
-I created this app back in 2014 to let people who are visiting Strzelin to experience Strzelin historical track in more modern way (using their smartphones or tablets). At that time there was only one official paper version of Tourist guide through Strzelin historical track.
+I created this app back in 2014 to let people who are visiting Strzelin to experience Strzelin historical track in more modern way (using their smartphones or tablets). At that time there was only one official paper version of tourist guide through Strzelin historical track.
 
 ## Contact
 marcinklysz@gmail.com
